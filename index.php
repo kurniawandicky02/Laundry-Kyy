@@ -9,6 +9,8 @@ $conn = mysqli_connect('localhost','root', '', 'laundry');
 <title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -54,7 +56,7 @@ $conn = mysqli_connect('localhost','root', '', 'laundry');
                         name="user"
                         type="text"
                         class="input100"   placeholder="Username" >
-						<span class="focus-input100"  data-placeholder="&#xe82a;"></span>
+						<span class="focus-input100"  data-placeholder=""><i class='fa fa-users' style="color: blue; position: relative; top:45px; left:30px; width:25px;"></i></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
@@ -62,7 +64,7 @@ $conn = mysqli_connect('localhost','root', '', 'laundry');
                         name="pass" 
                         type="password"
                         class="input100"  placeholder="Password">
-						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+						<span class="focus-input100" data-placeholder=""><i class="fa-solid fa-user-lock" style="color: blue; position: relative; top:45px; left:30px; width:25px;"></i></span>
 					</div>
 
 					<div class="container-login100-form-btn m-t-32" style="position:relative; right:90px;">
