@@ -1,0 +1,108 @@
+/*------Ini Adalah Css Costume Atau Native---*/
+
+.sukses {
+margin-top: 20px;
+
+ width: 800px;
+ height: 150px;
+ background: #90EE90;
+ font-family: sans-serif;
+ border-radius: 5px;
+
+}
+
+.sukses h2{
+  padding-top: 10px;
+}
+
+a .link{
+  text-decoration: none;
+}
+
+.copyright{
+  height: 60px;
+  position: relative;
+  top: 195px;
+  margin: 30px auto;
+  width: 100%;
+  background-color: #333;
+}
+.copyright a {
+  text-decoration: none;
+  color: salmon;
+}
+.copyright a:hover {
+color: red;
+background-color: aqua;
+}
+.copyright h1 {
+  padding: 10px;
+  font-size: 22px;
+  color: #fefefe;
+  text-align: center;
+}
+h2{
+  margin-top: 15px;
+  position: relative;
+  right:10px ;
+  width:120px;
+  height: 30px;
+  padding:20px;
+  padding-top: 5px;
+  background:aqua;
+  font-display:inherit;
+ color:white;
+  text-shadow:0 0 4px deeppink,
+              0 0 4px deeppink,
+              0 0 8px deeppink,
+              0 0 8px deeppink,
+              0 0 40px deeppink,
+              0 0 40px deeppink,
+              0 0 40px deeppink,
+              0 0 80px deeppink,
+              0 0 80px deeppink,
+              0 0 80px deeppink;
+  font-family:cursive;
+  font-size:20px;
+  border-radius:10%;
+  box-shadow:0 0 30px 0 white;
+  
+}
+
+
+.tanggal{
+  position: relative;
+  height: 40px;
+  left: 225px;
+  top: -57px;
+  color: #fafafa;
+  background:seagreen ;
+  font-family: "Segoe UI", sans-serif;
+  width: 150px;
+  padding: 3px 3px;
+  border: 3px solid seagreen;
+  border-radius: 5px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255,255,255, 0.1));
+text-shadow:0 0 4px deeppink,
+              0 0 4px deeppink,
+              0 0 8px deeppink,
+              0 0 8px deeppink,
+              0 0 40px deeppink,
+              0 0 40px deeppink,
+              0 0 40px deeppink,
+              0 0 80px deeppink,
+              0 0 80px deeppink,
+              0 0 80px deeppink;
+  font-family:cursive;
+  font-size:20px;
+  border-radius:10%;
+  box-shadow:0 0 4px aqua,
+              0 0 4px aqua,
+              0 0 8px aqua,
+              0 0 8px aqua,
+              0 0 40px aqua;
+             
+              
+}
+
+
