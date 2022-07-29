@@ -17,6 +17,7 @@ include_once("db.php");
 <title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -61,7 +62,7 @@ include_once("db.php");
 						type="text" 
                         name="nama"
                         class="input100"   placeholder="Name">
-						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+						<span class="focus-input100" data-placeholder=""><i class='fas fa-user-edit' style="color: blue; position: relative; top:45px; left:30px; width:25px;"></i></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
@@ -69,7 +70,7 @@ include_once("db.php");
 						type="text" 
                         name="username"
                         class="input100"   placeholder="Username">
-						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+						<span class="focus-input100" data-placeholder=""><i class='fa fa-users' style="color: blue; position: relative; top:45px; left:30px; width:25px;"></i></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
@@ -77,7 +78,7 @@ include_once("db.php");
 						type="password"
                          name="password" 
                         class="input100"  placeholder="Password">
-						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+						<span class="focus-input100" data-placeholder=""><i class='fas fa-user-lock' style="color: blue; position: relative; top:45px; left:30px; width:25px;"></i></span>
 					</div>
 					<div class="wrap-input100 validate-input" style="color: red; font-size:25px; position:relative;">
 					<td>Level:</td>
